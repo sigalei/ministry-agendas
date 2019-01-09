@@ -1,4 +1,4 @@
-# Extração de agenda de ministro
+# Extração da agenda de ministros
 > Repositório criado para o processo seletivo de estágio em data-mining do sigalei.
 
 ## O desafio
