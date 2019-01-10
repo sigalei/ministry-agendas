@@ -2,7 +2,13 @@
 > Repositório criado para o processo seletivo de estágio em data-mining do sigalei.
 
 ## O desafio
-Imagine que você trabalha em uma empresa que faz monitoramento legislativo e executivo e que agora está com interesse em dados relacionados a ministros. Para começar a atingir esse objetivo, um primeiro desafio é a extração das informações da agenda do Ministro da Economia, Paulo Guedes.
+Imagine que você mora em um país onde um novo pessoal assumiu o governo e que entre seus amigos há apoiadores e opositores do novo governo.
+
+No grupo de whatsapp dos amigos não param de chegar notícias especulando sobre as atividades do  novo Ministro da Economia, algumas notícias diziam que o Ministro está se encontrado com secretários dos EUA para alugar o Brasil, já outras notícias falavam que o ministro estava se encontrando com outras pessoas para negociar a reforma da previdência justa com a sociedade e fazer o país crescer novamente.
+
+Você, cansado desse desencontro de notícias, decide, por conta própria, descobrir a verdade a partir dos dados oficiais relacionados a agenda do Ministro.
+
+Como estudo de caso e para começar a atingir esse objetivo, um primeiro desafio é a extração das informações da agenda do Ministro da Economia da República Federativa do Brasil, Paulo Guedes.
 
 ## Requisitos
 A partir da seguinte [página do site do Ministério da Economia](http://www.economia.gov.br/Economia/agendas/gabinete-do-ministro/ministro-da-economia-paulo-guedes):
