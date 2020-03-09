@@ -4,7 +4,7 @@
 
 Imagine que você mora em um país onde um novo pessoal assumiu o governo e que entre seus amigos há apoiadores e opositores do novo governo.
 
-No grupo de whatsapp dos amigos não param de chegar notícias especulando sobre as atividades do  novo Ministro da Economia, algumas notícias diziam que o Ministro está se encontrando com secretários dos EUA para alugar o Brasil, já outras notícias falavam que o ministro estava se encontrando com outras pessoas para negociar a reforma da previdência justa com a sociedade e fazer o país crescer novamente.
+No grupo de whatsapp dos amigos não param de chegar notícias especulando sobre as atividades do  novo Ministro da Economia, algumas notícias diziam que o Ministro está se encontrando com secretários dos EUA para alugar o Brasil, já outras notícias falavam que o ministro estava se encontrando com outras pessoas para negociar a reformas justa com a sociedade e fazer o país crescer novamente.
 
 Você, cansado desse desencontro de notícias, decide, por conta própria, descobrir a verdade a partir dos dados oficiais relacionados a agenda do Ministro.
 
@@ -15,7 +15,7 @@ Como estudo de caso e para começar a atingir esse objetivo, um primeiro desafio
 A partir da seguinte [página do site do Ministério da Economia](http://www.economia.gov.br/agendas/gabinete-do-ministro/ministro-da-economia/paulo-guedes):
 
 * Extraia todos os eventos da agenda do ministro desde o ínicio do ano (01/01/2020) até a data mais atual (dia que for rodado o script)
-* Você *deve* usar o framework [scrapy (Python)](https://docs.scrapy.org/en/latest/index.html)
+* Você *deve* usar o framework [scrapy (Python 3)](https://docs.scrapy.org/en/latest/index.html)
 * Cada evento da agenda deve ser extraído como um dicionário com os seguintes "campos":
 
 ``` 
@@ -44,7 +44,7 @@ Por exemplo:
 }
 ```
 
-* Incluir um arquivo `README.md` no seu projeto, descrevendo qual versão do Python foi usada, quais bibliotecas precisam ser instaladas (opcionalmente incluia um arquivo `requirements.txt` ) e como rodar, além de qualquer outra informação que você achar necessário
+* Incluir um arquivo `README.md` no seu projeto, descrevendo quais bibliotecas precisam ser instaladas (opcionalmente incluia um arquivo `requirements.txt` ) e como rodar, além de qualquer outra informação que você achar necessário
 
 ## Dicas
 
@@ -60,7 +60,7 @@ Por exemplo:
 
 Além dos campos dos objetos extraídos, inclua mais um campo chamado `_id` . Esse campo deverá ser o identificador do evento, e poderá ter o formato que você quiser. Vale ressaltar que o `_id` deve, obviamente, ser único (não se repetir entre os eventos).
 
-**Dica**: Evite identificadores sequenciais, uma vez que novos eventos podem ser inseridos/excluídos/modificados retroativamente
+**Dica**: Evite identificadores sequenciais, uma vez que novos eventos podem ser inseridos/excluídos/modificados retroativamente.
 
 ## Critérios de avaliação
 * **Escopo**: avaliaremos se o seu projeto está extraindo os campos solicitados da totalidade dos eventos da agenda de Paulo Guedes.
@@ -70,7 +70,7 @@ Além dos campos dos objetos extraídos, inclua mais um campo chamado `_id` . Es
 
 ## Envio do projeto
 
-O projeto deve ser enviado compactado ( `.zip` ) para os e-mails guilherme.acra@sigalei.com.br, com cópia para fernando@sigalei.com.br com o assunto: Desafio de Mining - SEU NOME.
+O projeto deve ser enviado compactado ( `.zip` ) para os e-mails guilherme.acra@sigalei.com.br, com cópia para fernando@sigalei.com.br com o assunto: Desafio de Mineração - SEU NOME.
 
 ## Dúvidas
 
