@@ -1,12 +1,10 @@
 # Extração da agenda de ministros
 
-> Repositório criado para o processo seletivo de Estágio em Mineração de Dados do Sigalei.
-
 ## O desafio
 
 Imagine que você mora em um país onde um novo pessoal assumiu o governo e que entre seus amigos há apoiadores e opositores do novo governo.
 
-No grupo de whatsapp dos amigos não param de chegar notícias especulando sobre as atividades do  novo Ministro da Economia, algumas notícias diziam que o Ministro está se encontrado com secretários dos EUA para alugar o Brasil, já outras notícias falavam que o ministro estava se encontrando com outras pessoas para negociar a reforma da previdência justa com a sociedade e fazer o país crescer novamente.
+No grupo de whatsapp dos amigos não param de chegar notícias especulando sobre as atividades do  novo Ministro da Economia, algumas notícias diziam que o Ministro está se encontrando com secretários dos EUA para alugar o Brasil, já outras notícias falavam que o ministro estava se encontrando com outras pessoas para negociar a reforma da previdência justa com a sociedade e fazer o país crescer novamente.
 
 Você, cansado desse desencontro de notícias, decide, por conta própria, descobrir a verdade a partir dos dados oficiais relacionados a agenda do Ministro.
 
@@ -17,9 +15,7 @@ Como estudo de caso e para começar a atingir esse objetivo, um primeiro desafio
 A partir da seguinte [página do site do Ministério da Economia](http://www.economia.gov.br/agendas/gabinete-do-ministro/ministro-da-economia/paulo-guedes):
 
 * Extraia todos os eventos da agenda do ministro desde o ínicio do ano (01/01/2020) até a data mais atual (dia que for rodado o script)
-
 * Você *deve* usar o framework [scrapy (Python)](https://docs.scrapy.org/en/latest/index.html)
-
 * Cada evento da agenda deve ser extraído como um dicionário com os seguintes "campos":
 
 ``` 
@@ -53,14 +49,11 @@ Por exemplo:
 ## Dicas
 
 * Se você ainda não conhece o Scrapy, provavelmente valha a pena fazer o seguinte [tutorial](https://docs.scrapy.org/en/latest/intro/tutorial.html) antes de começar esse projeto
-
 * O Scrapy possui seu próprio parser de HTML, sendo que a árvore DOM pode ser acessada usando seletores CSS ou XPATH. Opcionalmente, você pode usar a biblioteca [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) para fazer o parser e a manipulação dos elementos HTML (caso queira utilizar, recomendamos que você estude os métodos `select` e `find` ). A princípio ela é um pouco mais complexa, porém é muito mais poderosa e permite que você faça uma busca mais refinada na página HTML. Para criar um objeto `soup` a partir do objeto `response` do Scrapy:
-
 ``` 
     def parse(self, response):
         soup = BeautifulSoup(response.body, 'lxml')
 ```
-
 * Analise com cuidado a URL da página de Agenda do site do Ministério da Economia. Manipulando os parâmetros, você poderá navegar pelo calendário, sem ter que "clicar" em nenhum botão
 
 ## Tarefa bônus (Não obrigatória!)
@@ -70,19 +63,15 @@ Além dos campos dos objetos extraídos, inclua mais um campo chamado `_id` . Es
 **Dica**: Evite identificadores sequenciais, uma vez que novos eventos podem ser inseridos/excluídos/modificados retroativamente
 
 ## Critérios de avaliação
-
 * **Escopo**: avaliaremos se o seu projeto está extraindo os campos solicitados da totalidade dos eventos da agenda de Paulo Guedes.
-
 * **Qualidade do código**: nós no Sigalei prezamos por códigos bem organizados, simples, sem repetição e com nomes de métodos, variáveis e classes intuitivos. Métodos muito grandes não são uma boa ideia, quebre em vários métodos menores. Uma boa documentação é fundamental, entretanto é melhor fazer um bom código (que consigamos entender apenas olhando para ele), do que enchê-lo de comentários.
-
 * **Execução**: gostaríamos de rodar sua spider para ver o resultado de seu trabalho. Esse critério, entretanto, não é eliminatório. Caso você não consiga fazer um programa funcional, envie mesmo assim.
-
 * **Desafio**: o cumprimento do desafio contará alguns pontos a mais, bem como qualquer incremento no escopo ou uso de técnicas mais avançadas (pipelines, parâmetros, exportação em JSON, etc). Esse critério também não é eliminatório, então não se preocupe se não conseguir ou não tiver tempo de fazer.
 
 ## Envio do projeto
 
-O projeto deve ser enviado compactado ( `.zip` ) para os e-mails -mails guilherme.acra@sigalei.com.br, com cópia para fernando@sigalei.com.br com o assunto: Desafio de Mining - SEU NOME até às **23:59 do dia 29/03/2020**.
+O projeto deve ser enviado compactado ( `.zip` ) para os e-mails guilherme.acra@sigalei.com.br, com cópia para fernando@sigalei.com.br com o assunto: Desafio de Mining - SEU NOME.
 
 ## Dúvidas
 
-Se tiverem qualquer dúvida, não deixem de entrar em contato com a gente pelo e-mails guilherme.acra@sigalei.com.br, com cópia para fernando@sigalei.com.br. Algum de nós entrará em contato com você o mais rápido possível. Respostas de perguntas que possam ajudar a todos serão compartilhadas nos e-mail de vocês.
+Se tiverem qualquer dúvida, não deixem de entrar em contato com a gente preferencialmente por mensagem na plataforma do processo seletivo, ou também pelos e-mails guilherme.acra@sigalei.com.br, com cópia para fernando@sigalei.com.br. Algum de nós entrará em contato com você o mais rápido possível. Respostas de perguntas que possam ajudar a todos serão encaminhadas para vocês.
