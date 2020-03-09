@@ -4,7 +4,7 @@
 
 Imagine que você mora em um país onde um novo pessoal assumiu o governo e que entre seus amigos há apoiadores e opositores do novo governo.
 
-No grupo de whatsapp dos amigos não param de chegar notícias especulando sobre as atividades do  novo Ministro da Economia, algumas notícias diziam que o Ministro está se encontrando com secretários dos EUA para alugar o Brasil, já outras notícias falavam que o ministro estava se encontrando com outras pessoas para negociar a reformas justa com a sociedade e fazer o país crescer novamente.
+No grupo de whatsapp dos amigos não param de chegar notícias especulando sobre as atividades do  novo Ministro da Economia, algumas notícias diziam que o Ministro está se encontrando com secretários dos EUA para alugar o Brasil, já outras notícias falavam que o ministro estava se encontrando com outras pessoas para negociar reformas justas com a sociedade e fazer o país crescer novamente.
 
 Você, cansado desse desencontro de notícias, decide, por conta própria, descobrir a verdade a partir dos dados oficiais relacionados a agenda do Ministro.
 
